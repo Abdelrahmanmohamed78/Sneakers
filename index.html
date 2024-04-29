@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="ecommerce Project to buy brading sneakers">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <!-- FAV Icon -->
+    <link rel="shortcut icon" href="Images/favicon-32x32.png" type="image/x-icon">
+    <!-- Font awesome Links -->
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-a60ddbceb7292f11c9e430d067b1eb9f.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css">
+    <!-- CSS & Bootstrap Files -->
+    <link rel="stylesheet" href="CSS/bootstrap.css.map">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Sneakers</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="header">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <div class="cart-list-holder position-absolute">
+          <div class="cart-list rounded">
+            <h3 class="mb-0">Cart is empty....</h3>
+            <div class="content">
+              <h3 class="mb-0 fw-bolder">Cart</h3>
+              <div class="product-holder">
+                <div class="product-item d-flex align-items-center gap-3">
+                  <div class="image rounded overflow-hidden">
+                    <img src="Images/image-product-1.jpg" alt="image-product-1">
+                  </div>
+                  <div class="product-info">
+                    <p class="mb-1">Fall Limited Edition Sneakers</p>
+                    <span></span> <span></span>
+                  </div>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+                <button class="main-btn mt-3 w-100 border-0 pt-3 rounded">Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="d-flex align-items-center gap-4 gap-lg-5">
+          <div class="overlay position-fixed"></div>
+          <aside class="mobile-menu position-fixed p-4">
+            <i class="fa-regular fa-x closeIcon"></i>
+            <ul class="mt-5">
+              <li><a href="#" class=" d-block fw-bolder mb-3">Collections</a></li>
+              <li><a href="#" class=" d-block fw-bolder mb-3">Men</a></li>
+              <li><a href="#" class=" d-block fw-bolder mb-3">Women</a></li>
+              <li><a href="#" class=" d-block fw-bolder mb-3">About</a></li>
+              <li><a href="#" class=" d-block fw-bolder">Contact</a></li>
+            </ul>
+          </aside>
+          <i class="d-block d-lg-none fs-4 fa-sharp fa-solid fa-bars bars"></i>
+          <a href="#" class="logo">sneakers</a>
+          <ul class="d-none d-lg-flex align-items-center gap-4">
+            <li><a href="#" class="d-flex align-items-center">Collections</a></li>
+            <li><a href="#" class="d-flex align-items-center">Men</a></li>
+            <li><a href="#" class="d-flex align-items-center">Women</a></li>
+            <li><a href="#" class="d-flex align-items-center">About</a></li>
+            <li><a href="#" class="d-flex align-items-center">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="icons d-flex align-items-center gap-3 gap-md-5">
+          <div class="cart-icon position-relative">
+            <span class="position-absolute justify-content-center align-items-center rounded-pill">0</span>
+            <i class="fa-light fa-cart-shopping shopping-cart"></i>
+          </div>
+          <div class="user-image overflow-hidden">
+            <img src="Images/image-avatar.png" alt="image-avatar">
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Main Sec -->
+    <main>
+      <section class="product position-relative">
+        <div class="container">
+          <div class="image-preview-holder ps-3 pe-3 position-fixed justify-content-center align-items-center">
+            <div class="image-preview position-relative box">
+              <i class="position-absolute fa-regular fa-x closeIcon"></i>
+              <div class="thumbnail-image position-relative mb-4 rounded-4 overflow-hidden">
+                <i class="slider-icons position-absolute rounded-pill d-flex justify-content-center align-items-center fa-solid fa-chevron-left left"></i>
+                <img src="Images/image-product-1.jpg" alt="image-product-thumbnail">
+                <i class="slider-icons position-absolute rounded-pill d-flex justify-content-center align-items-center fa-solid fa-chevron-right right"></i>
+              </div>
+              <ul class="images-show activeImages d-flex gap-3">
+                <li class="active overflow-hidden rounded-3 position-relative">
+                  <img src="Images/image-product-1.jpg" alt="image-product-1">
+                </li>
+                <li class="overflow-hidden rounded-3 position-relative">
+                  <img src="Images/image-product-2.jpg" alt="image-product-1">
+                </li>
+                <li class="overflow-hidden rounded-3 position-relative">
+                  <img src="Images/image-product-3.jpg" alt="image-product-1">
+                </li>
+                <li class="overflow-hidden rounded-3 position-relative">
+                  <img src="Images/image-product-4.jpg" alt="image-product-4">
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row justify-content-between align-items-center position-relative">
+            <div class="col-12 col-lg-6 d-flex justify-content-center mb-4 mb-lg-0">
+              <div class="product-images box">
+                <div class="thumbnail-image position-relative mb-4 rounded-4 overflow-hidden">
+                  <i class="slider-icons position-absolute rounded-pill d-flex d-sm-none justify-content-center align-items-center fa-solid fa-chevron-left left"></i>
+                  <img src="Images/image-product-1.jpg" alt="image-product-thumbnail">
+                  <i class="slider-icons position-absolute rounded-pill d-flex d-sm-none justify-content-center align-items-center fa-solid fa-chevron-right right"></i>
+                </div>
+                <ul class="images-show activeImages d-none d-sm-flex gap-3">
+                  <li class="active overflow-hidden rounded-3 position-relative">
+                    <img src="Images/image-product-1.jpg" alt="image-product-1">
+                  </li>
+                  <li class="overflow-hidden rounded-3 position-relative">
+                    <img src="Images/image-product-2.jpg" alt="image-product-1">
+                  </li>
+                  <li class="overflow-hidden rounded-3 position-relative">
+                    <img src="Images/image-product-3.jpg" alt="image-product-1">
+                  </li>
+                  <li class="overflow-hidden rounded-3 position-relative">
+                    <img src="Images/image-product-4.jpg" alt="image-product-4">
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 d-flex justify-content-center">
+              <div class="product-info box">
+                <p class="text-uppercase">Sneaker Company</p>
+                <h2 class="mb-5 fs-1 fw-bolder">Fall Limited Edition Sneakers</h2>
+                <p>
+                  These low-profile sneakers are your perfect casual wear companion. 
+                  Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
+                </p>
+                <div class="price d-flex justify-content-between align-items-center justify-content-sm-start align-items-sm-start flex-sm-column mt-4 mb-4">
+                  <div class="discount d-flex align-items-center gap-3 mb-2">
+                    <h4 class="mb-0 fw-bold">$125.00</h4>
+                    <span class="rounded">50%</span>
+                  </div>
+                  <del>$250.00</del>
+                </div>
+                <div class="cart-process d-flex flex-column flex-sm-row gap-2">
+                  <div class="counter d-flex justify-content-between align-items-center gap-4 pt-2 pb-2 ps-3 pe-3 rounded">
+                    <span class="decrease d-block">-</span>
+                    <span class="count-number d-block">0</span>
+                    <span class="increase d-block">+</span>
+                  </div>
+                  <button class="main-btn d-flex align-items-center border-0 rounded d-flex align-items-center justify-content-center gap-3">
+                    <i class="fa-light fa-cart-shopping"></i>
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End Main Sec -->
+    <!-- Bootstrap Script Files -->
+    <script src="JS/bootstrap.bundle.min.js.map"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- Main JS Script File -->
+    <script src="JS/main.js"></script>
+  </body>
+</html>
